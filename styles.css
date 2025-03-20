@@ -1,0 +1,347 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{
+    background-color: rgb(37, 37, 37);
+}
+
+@font-face{
+    font-family: tuvieja;
+    src: url(BlackOpsOne-Regular.ttf)
+}
+
+
+.logo{
+    font-family: tuvieja;
+    font-size: 70px;
+    color: rgb(190,0,0);
+    
+
+}
+
+h2{
+    font-weight: bold;
+}
+
+header{
+    width: 100%;
+  
+      position: absolute;
+
+}
+
+.container-header{ 
+    width: 1200px;
+    padding: 0px 15px;
+    display: flex;
+    
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav{
+    
+}
+#selector{
+    font-size: 16px;
+    padding: 7px;
+    margin-left: 10px;
+    background: transparent;
+    color:aliceblue;
+    border-radius: 5px;
+
+}
+nav input{
+    font-size: 16px;
+    padding: 7px;
+    background-color:rgb(231, 0, 0); 
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    border:1px black;
+    margin-left: 20px;
+}
+
+nav input:hover{
+    background-color:rgb(185, 0, 0); 
+    transition: .5s;
+}
+
+.portada{
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.9),
+        rgba(0,0,0,.6),
+        rgba(0,0,0,.9)
+    ) ,url(portada.png) ;
+    width: 100%;
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
+
+.container{
+    max-width: 1500px;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: aliceblue;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.container h1{
+    font-size: 70px;
+    text-shadow: 5px 5px 15px black;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-bottom: 25px;
+}
+
+
+.container p{
+    font-size: 27px;
+    margin-bottom: 30px;
+}
+
+.container .recomendacion{
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.container-inputs input{
+    padding: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    
+}
+
+
+.container-inputs .inputone{
+olor: aliceblue;
+    width: 400px;
+    background: transparent;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    );
+    border: 1px solid gray;
+    color: aliceblue;
+}
+
+.container-inputs .inputone:focus{
+
+    width: 400px;
+    background: transparent;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,.5),
+        rgba(0,0,0,.5)
+    );
+    border: 1px solid gray;
+    color: aliceblue;
+   
+}
+
+.container-inputs .inputtwo{
+
+   background-color:rgb(231, 0, 0); 
+   font-weight: bold;
+   color:aliceblue;
+   border: 1px solid black  ;
+   margin-left: 5px;
+}
+.container-inputs .inputtwo:hover{
+
+    background-color:rgb(185, 0, 0); 
+    transition: .5s;
+ }
+
+
+#tv{
+    width: 100%;
+    background-color: black;
+    margin: 7px 0px;
+}
+
+
+#android{
+    width: 100%;
+    background-color: black;
+    margin: 7px 0px;
+}
+
+#preguntas{
+    width: 100%;
+    background-color: black;
+    margin: 7px 0px;
+}
+
+
+
+.container_conten{
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    color: aliceblue;
+    font-size: 30px;
+    min-height: 550px;
+
+}
+
+.container_conten h2{
+    margin-bottom: 30px;
+}
+
+#tv .container_conten img  {
+    width: 500px;
+    
+}
+#android .container_conten img  {
+    width: 230px;
+}
+
+
+.texto{
+width: 50%;
+font-family: sans-serif;
+display: flex;
+flex-direction: column;
+text-align: center;
+justify-content: center;
+
+}
+
+.imagen {
+width: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+.questions{
+    display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+h2{
+    font-weight:900;
+}
+
+.caja{
+    width: 100%;
+    background-color: rgb(41, 41, 41);
+    margin: 8px 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    align-items: center;
+    
+
+}
+
+.caja:hover{
+    
+    background-color: rgb(94, 94, 94);
+
+    transition: 1s;
+    
+    
+
+}
+
+
+.cajamayor .caja p{
+    font-size: 25px;
+}
+
+
+
+
+
+
+.cajamayor .caja p.simbolo{
+    font-size: 80px;
+    font-weight: lighter;
+    
+}
+
+
+footer{
+    width: 100%;
+    background-color: black;
+    margin: 7px 0px;
+    list-style: none;
+    
+}
+
+footer .container_conten{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    padding: 70px 0px;
+ 
+    
+}
+
+
+
+footer .container_conten a{
+    flex-direction: column;
+    color: rgba(240, 248, 255, 0.726);
+}
+
+
+.bloques{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+
+.bloquecito ul li {
+    margin: 15px 0px;
+}
+
+footer #selector{
+    margin: 0px;
+    width: 100px;
+}
+
+#logaso{
+    display: flex;
+    max-width: 1300px;
+    margin: auto;
+    color: aliceblue;
+    font-size: 30px;
+    min-height: 550px;
+}
+
+#logaso div{
+    background-color: tr;
+    font-family: tuvieja;
+    font-size: 90px;
+    font-size: 600px;
+   background-color: black;
+    color: red;
+}
+
